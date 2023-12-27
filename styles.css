@@ -1,0 +1,124 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin: 47px 0  208px 42px
+}
+
+.Link-header{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: normal;
+    color: #17233D;
+    cursor: pointer;
+    margin-right: 36px;
+}
+
+.Logo-image {
+    width: 533.834px;
+    height: 466.9px;
+    margin-left: 182.18px;
+    display: inline-block;
+
+}
+
+section{
+    display: inline-block;
+    margin-left: 96.83px;
+    
+}
+
+.button-header{
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    font-size: 16px;
+    font-weight: 500;
+     color: #FFF;
+    cursor: pointer;
+}
+
+h1{
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px; 
+     
+}
+
+p{
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px; 
+    width: 493px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+.button-section{
+    background: #6FBF44;
+    cursor: pointer;
+    width: 124px;
+    height: 51px;
+    border-radius: 100px;
+    border: none;
+     color: #000;
+     font-size: 16px;
+     font-weight: 500;
+}
+@media screen and (max-width: 1023px) {
+    header :not(.button-header){
+    display: none;
+    width: 100%;
+    }
+
+    .button-header{
+        max-width: 91px;
+        height: 31px;
+        position: absolute;
+        right: 0%;
+        margin-right: 10px;
+    }
+
+    
+    img{
+        max-width: 312px;
+        height: 288px;
+        margin: auto;
+        display: block;     
+    }
+
+
+    h1{
+        font-size: 30px;
+        line-height: 30px;
+        max-width: 278px;
+        height: 60px;
+        margin: auto;
+        margin-bottom: 29px;
+        text-align: center;
+    }
+
+    p{
+        max-width: 304px;
+        height: 165px;
+        margin: auto;
+        margin-bottom: 26px;
+        text-align: center;
+    }
+
+    button-section{
+        max-width: 113px;
+        height: 27px;
+        margin: auto;
+        text-align: center;
+}
+}
+
+
+
